@@ -1,0 +1,29 @@
+.navbar {
+    background-color: rgb(193, 171, 197);
+    overflow: hidden;
+
+}
+
+.navbar a {
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    
+}
+
+.home-title {
+  font-family: Arial, sans-serif;
+  color:lightslategray;
+  font-weight:200;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-image {
+    padding: 20px;
+    height:auto;
+    width: 300px;
+    
+    
+    
+}
