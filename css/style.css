@@ -8,22 +8,33 @@
     text-align: center;
     color: white;
     padding: 14px 16px;
-    
+    /* This uses a descendant combinator, denoted by a space. 
+    only the a that are children of .navbar are 
+    affected */
 }
 
-.home-title {
+.home-title,.home {
   font-family: Arial, sans-serif;
   color:lightslategray;
   font-weight:200;
   font-size: 40px;
   text-align: center;
+  /* This uses a grouping selector, denoted by a comma. Both .home-title
+  and the paragraphs use the same styling. */
 }
 
 .main-image {
     padding: 20px;
     height:auto;
-    width: 300px;
+    width: 800px;
     
     
     
+}
+
+.recipe-title {
+  font-family: Arial, sans-serif;
+  color:lightslategray;
+  font-weight:200;
+  text-align: center;
 }
